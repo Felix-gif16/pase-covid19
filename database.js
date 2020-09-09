@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = 'mongodb+srv://Felix:BoDJyvwPJdqgFRYp@cluster0.wxnea.gcp.mongodb.net/PaseCovid?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://<username>:<password>@cluster0.wxnea.gcp.mongodb.net/PaseCovid?retryWrites=true&w=majority';
 
 mongoose.connect(uri, {
     useUnifiedTopology:true,
